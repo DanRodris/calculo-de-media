@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="./css/style.css">
+
+    <title>Cálculo de Média</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cálculo de Média dos Alunos</h1>
+    </header>
+
+    <!-- Seção para adicionar o formulário de entrada das notas das alunas -->
+    <section class="form-section">
+
+         <!-- Formulário que captura o nome e as notas de cada aluno -->
+        <form id="calculorMedia">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome" required>
+
+             <!-- Campo para o nome da aluno -->
+            <label for="nota1"> Nota 1</label>
+            <input type="number" id="nota1" name="nota1" required min="0" max="10" step="0.1">
+
+            <!-- Campo para as notas dos alunos -->
+            <label for="nota2"> Nota 2</label>
+            <input type="number" id="nota2" name="nota1" required min="0" max="10" step="0.1">
+
+            <label for="nota3"> Nota 3</label>
+            <input type="number" id="nota3" name="nota1" required min=".1" max="10" step="0.1">
+
+            <label for="nota4"> Nota 4</label>
+            <input type="number" id="nota4" name="nota1" required min="0" max="10" step="0.1">
+            
+            <!-- Botão para adicionar os dados do formulário na tabela -->
+            <button type="submit">Calcular</button>
+
+        </form>
+        <img src="./img/ca" alt="">
+    </section>
+
+    <!-- Seção que exibe a tabela com as notas e a média das alunas -->
+     <section class="table-section">
+        <h2>Notas dos Alunos</h2>
+
+        <!-- Tabela onde serão listadas os alunos, suas notas e médias -->
+        <table id="notasTable">
+
+            <!-- Cabeçalho da tabela com títulos para cada coluna -->
+            <thead>
+                <tr>
+                    <th>Nome</th>  <!-- Coluna para o nome do aluno -->
+                    <th>Nota 1</th> 
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Nota 4</th>
+                    <th>Média</th>
+                </tr>
+            </thead>
+
+            <!-- Corpo da tabela, onde as linhas com as notas e médias serão adicionadas pelo JavaScript -->
+            <tbody>
+                 <!-- As notas serão adicionadas aqui pelo JavaScript -->
+            </tbody>
+        </table>
+     </section>
+
+
+      <!-- Inclui o arquivo JavaScript externo que manipula o formulário e a tabela -->
+     <script src="./js/calculo.js"></script>
+</body>
+
+</html>
