@@ -34,13 +34,13 @@ Para rodar o projeto localmente, siga estas etapas:
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/DanRodris/calculo-de-media.git
-   cd nome-do-repositorio 
+   cd calculo-de-media
 
   ## 📝 Como Usar
 
   1. Abra a página no navegador.
   2. Preencha o nome do aluno e as notas nos campos de entrada
-  3. Clique no botão "Calcular" para calcular a média e registrar a aluna na tabela.
+  3. Clique no botão "Calcular" para calcular a média e registrar o aluno na tabela.
   4. A tabela exibirá o nome do aluno, suas notas e a média calculada.
 
   ## 📈 Exemplo de Código
